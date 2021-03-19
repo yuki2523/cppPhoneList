@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hcy/Desktop/app/C++/project1/Phone.h
+string
+-
+
+/Users/hcy/Desktop/app/C++/project1/PhoneList.cpp
+iostream
+-
+string
+-
+PhoneList.h
+/Users/hcy/Desktop/app/C++/project1/PhoneList.h
+Phone.h
+/Users/hcy/Desktop/app/C++/project1/Phone.h
+
+/Users/hcy/Desktop/app/C++/project1/PhoneList.h
+iostream
+-
+string
+-
+Phone.h
+/Users/hcy/Desktop/app/C++/project1/Phone.h
+
